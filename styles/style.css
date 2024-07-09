@@ -1,0 +1,66 @@
+/* universal selectors */
+*{
+    font-family: "Azeret Mono", monospace;
+}
+
+/* header part */
+.header{
+    background-image: url('../assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1880px;
+    height: 750px;
+}
+/* header part ends here */
+/* div part */
+.upper-contents{
+    display:flex;
+    justify-content: space-between;
+    margin: 30px 160px
+}
+h3{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;    
+}
+.download{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 8px;
+}
+/* div part ends*/
+/* banner-content part starts here */
+.banner-contents{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+.banner-contents h1{
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;  
+}
+
+.banner-contents p{
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+
+}
+.banner-contents .contact-btn{
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    margin-top: 60px;
+}
+/* banner-content part ends here */
