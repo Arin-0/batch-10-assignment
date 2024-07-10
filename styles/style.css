@@ -472,7 +472,69 @@
     font-size: 16px;
     font-weight: 700;
 }
+/* skill section ends here */
+/* form set up start here */
+.submit-box{
+    width: 1140px;
+    height: 314px;
+    margin: 0 auto;
+    margin-top: 62px;
+    background-image: url('../assets/handshake.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+
+.support{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 48px;
+    text-align: center;
+}
+.support h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.support p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+.support form{
+    width: 548px;
+    height: 57px;
+}
+/* form set up ends here */
+.submit-container input[type="text"]{
+    width: 548px;
+    height: 57px;
+    margin-left: 230px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+.btn{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 120px;
+    height: 55px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+}
 
 
-/* fourth section ends here */
 
