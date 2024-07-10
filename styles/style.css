@@ -33,7 +33,6 @@
 .banner-container{
     max-width: 1890px;
     min-height: 652px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-top: 131px;
     background-image: url('../assets/Hero-bg.png');
@@ -46,7 +45,6 @@
 .banner-content{
     width: 998px;
     height: 582px;
-    border: 2px solid red;
     margin: 0 auto;
     text-align: center;
 }
@@ -71,3 +69,201 @@
     font-size: 20px;
 }
 /* header part ends here */
+/* section parts starts here */
+.secondary-container{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    width: 1140px;
+    height: 1395px;
+    padding: 80px 97px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.first-content{
+    text-align: center;
+}
+.first-content h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 24px 0;  
+}
+.first-content p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+
+}
+
+/* boxs part start here */
+.box-contents{
+    margin-top: 48px;
+}
+/* box1 section */
+.box1{
+    background-color: white;
+    display: flex;
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+}
+.box1-left{
+    width: 50%;
+    height: 336px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 48px;
+}
+.box1-left h1{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 16px 0px;
+}
+.box1-left p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 20px;
+}
+.box1 .btn{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px 10px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px;
+    margin-top: 42px; 
+}
+
+.box1-right{
+    width: 50%;
+    height: 336px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.box1-right img{
+    height: 100%;
+    width: 100%;
+    width: 259.56px;
+    height: 217.01px;
+    margin-bottom: 50px;
+}
+/* box1 section ends */
+/* box2 section starts */
+.box2{
+    background-color: white;
+    display: flex;
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+}
+.box2-left{
+    width: 50%;
+    height: 336px;
+    display: flex;
+}
+.box2-left img{
+    height: 100%;
+    width: 100%;
+    width: 223.2px;
+    height: 208.85px;
+    margin-top: 30px;
+}
+.box2-right{
+    width: 50%;
+    height: 336px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;    
+}
+.box2-right h1{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin: 40px 0px;
+    
+}
+.box2-right p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400; 
+    opacity: 0.7;  
+}
+.box2 .btn{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px;
+    margin-top: 42px;
+}
+/* box2 section ends */
+/* box3 section starts */
+.box3{
+    background-color: white;
+    display:flex;
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+}
+.box3-left{
+    width: 50%;
+    height: 336px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 48px;
+}
+.box3-left h1{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 16px 0px;
+}
+.box3-left p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 20px;
+}
+.box3 .btn{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px 10px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px;
+    margin-top: 42px; 
+}
+.box3-right{
+    width: 50%;
+    height: 336px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.box3-right img{
+    height: 100%;
+    width: 100%;
+    width: 206.4px;
+    height: 187.32px;
+    margin-bottom: 50px;
+}
+/* box3 section ends */
+.box1, .box2, .box3{
+    margin-top: 32px
+}
+/* boxs part Ends here */
+/* section parts ends here */
