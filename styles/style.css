@@ -68,6 +68,15 @@
     color: rgb(255, 255, 255);
     font-size: 20px;
 }
+.banner-content .contact-btn a{
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 21px 24px;
+    margin-top: 52px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+}
 /* header part ends here */
 /* section parts starts here */
 .secondary-container{
@@ -364,7 +373,6 @@
     opacity: 0.7;
     margin-top: 20px;
 }
-
 .css{
     padding: 40px;
     border-radius: 16px;
@@ -402,7 +410,7 @@
     font-weight: 400;
     line-height: 26px;
     margin-top: 20px;
-} 
+}
 /* skill part ends*/
 /* 2nd skill part start here */
 .Target-skills{
@@ -537,7 +545,7 @@
 }
 /* footer part starts here */
 .footer-bg{
-    border: 2px solid red;
+    
     width: 1440px;
     height: 100px;
     padding: 32px 150px;
