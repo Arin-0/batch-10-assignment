@@ -524,7 +524,7 @@
     border-radius: 8px;
     background: rgb(255, 255, 255);
 }
-.btn{
+.submit-btn{
     border-radius: 8px;
     background: rgb(255, 255, 255);
     width: 120px;
@@ -535,6 +535,36 @@
     line-height: 23px;
     text-align: center;
 }
+/* footer part starts here */
+.footer-bg{
+    border: 2px solid red;
+    width: 1440px;
+    height: 100px;
+    padding: 32px 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin: 0 auto;
+    margin-top: 79px;
+}
+.footer-bg h3{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+.footer-box{
+    display: flex;
+    gap: 592.99px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+
+
+/* footer part ends here */
 
 
 
